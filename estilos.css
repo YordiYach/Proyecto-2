@@ -1,0 +1,62 @@
+body {
+    display: grid;
+    font-family: "Roboto Mono", monospace;
+    height: 100vh;
+    margin: 0;
+    place-items: center;
+  }
+  .decreasebtn {
+    outline: none;
+    background-color: #c70707;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 20px 50px;
+    text-align: center;
+    transition: opacity 0.4s ease-in-out;
+  }
+
+  .increasebtn {
+    background-color: #119c0d;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    outline: none;
+    padding: 20px 50px;
+    text-align: center;
+    transition: opacity 0.4s ease-in-out;
+  }
+
+  .resetbtn {
+    background-color: #00f2ff;
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    outline: none;
+    padding: 20px 50px;
+    text-align: center;
+    transition: opacity 0.4s ease-in-out;
+  }
+  
+  button:hover {
+    opacity: 0.7;
+  }
+  
+  .container {
+    box-shadow: 20px 15px;
+    text-align: center;
+    background: rgba(234, 231, 231, 0.895);
+    border-radius: 50px;
+    height: 300px;
+    padding: 20px;
+    position: relative;
+    width: 50%;
+  }
+  
+  .title {
+    font-size: 4rem;
+    font-family: system-ui;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+    
